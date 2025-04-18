@@ -1,0 +1,25 @@
+[build-system]
+requires = ["poetry>=2.1.1"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "test_service"
+version = "0.1.0"
+description = "The test back-end service of the project"
+authors = ["Valery Parkhomenko <valeryparkhomenkomain@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.8"
+gunicorn = "^23.0.0"
+uvicorn = "^0.34.0"
+pydantic = "^2.10.6"
+pydantic-settings = "^2.7.1"
+aiohttp = "^3.11.12"
+pandas = "^2.2.3"
+SQLAlchemy = "^2.0.38"
+asyncpg = "^0.30.0"
+alembic = "^1.14.1"
+psycopg2-binary = "^2.9.10"
+greenlet = "^3.2.0"
