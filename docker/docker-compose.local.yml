@@ -20,8 +20,8 @@ services:
       timeout: 5s
       retries: 3
 
-  some_service:
-    container_name: some_service
+  test_service:
+    container_name: test_service
     hostname: ${TEST_SERVICE_HOST}
     restart: on-failure
     build:
